@@ -1,2 +1,0 @@
-This is what we know about the textFile.txt: Hi Js😉.
-Created on 1664268153411
