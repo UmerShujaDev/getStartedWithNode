@@ -1,7 +1,7 @@
 const fs = require("fs");
 const http = require("http");
 const url = require("url");
-
+const slugify = require("slugify");
 const port = process.env.PORT || 8000;
 const replaceTemplate = (temp, product) => {
   let output = temp.replace(/{% PRODUCTNAME %}/g, product.productName);
