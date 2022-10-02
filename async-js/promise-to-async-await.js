@@ -36,3 +36,10 @@ const getDogImage = async () => {
 };
 
 getDogImage();
+
+// hit different apis without any delay
+// const res1 = superAgent.get(`https://dog.ceo/api/breed/${data}/images/random`);
+// const res2 = superAgent.get(`https://dog.ceo/api/breed/${data}/images/random`);
+// const res3 = superAgent.get(`https://dog.ceo/api/breed/${data}/images/random`);
+
+// const all = await Promise.all([res1, res2, res3]);
